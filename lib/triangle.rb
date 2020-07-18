@@ -6,4 +6,8 @@ class Triangle
     @isosceles = isosceles
     @scalane = scalane
   end
+  
+  class TriangleError < StandardError
+    
+  end
 end
